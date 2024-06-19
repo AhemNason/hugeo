@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Hugeo
 
 # import hextra as module
 module:
@@ -23,6 +23,9 @@ menu:
       weight: 1
     - name: About
       pageRef: /about
+      weight: 3
+    - name: Sample Times
+      pageRef: /sampleTimes
       weight: 2
     - name: Contact ↗
       url: "https://github.com/imfing"
@@ -36,11 +39,7 @@ menu:
       url: "https://github.com/imfing/hextra-starter-template"
       params:
         icon: github
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
+
 
 params:
   navbar:
@@ -48,7 +47,7 @@ params:
     displayLogo: false
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
