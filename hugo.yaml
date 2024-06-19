@@ -21,14 +21,11 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
+    - name: Contributing
+      pageRef: /contrib
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 3
-    - name: Sample Times
-      pageRef: /sampleTimes
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
     - name: Search
       weight: 4
